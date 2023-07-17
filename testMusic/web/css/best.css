@@ -1,0 +1,298 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: auto;
+    background: rgb(45,46,48);
+
+}
+
+.center{
+    width: 70.45%;
+    margin: auto;
+    /*background: red;*/
+    background: rgb(45,46,48);
+}
+
+.center_nav {
+    color: #eef0f4;
+}
+
+.footer{
+    clear: both;
+    height: 80px;
+    background:rgb(23,24,26);
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 100px;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+}
+
+.picture{
+    margin-top: 2px;
+    width: 100%;
+    height: 420px;
+    text-align: center;
+    background: rgb(31,32,34);
+}
+
+.picture img {
+    width: 1080px;
+    height: 420px;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+a:link{
+    color: floralwhite;
+}
+a:visited{
+    color: floralwhite;
+}
+/*header*/
+
+.header {
+    top: 0;
+    width: 100%;
+    /*position: fixed;*/
+}
+
+.logo{
+
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 100px;
+    font-family: 楷体;
+    font-weight: bolder;
+    float: top;
+    background:rgb(23,24,26);
+}
+#nav{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #30cfd0;
+    float: top;
+}
+#navv{
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    float: right;
+    justify-content: center;
+}
+#navv ul li{
+    display: inline-block;
+    line-height: 60px;
+}
+#navv ul li a{
+    display: block;
+    width: 100px;
+    padding: 10px;
+    line-height: 60px;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+}
+table{
+    width: 100%;
+}
+td{
+    width: 100px;
+}
+
+.rank_table {
+    width: 100%;
+    text-align: center;
+    color: #eef0f4;
+    margin: 10px auto;
+
+
+}
+.rank_tr {
+    height: 50px;
+    margin: 50px auto;
+    border-color: #eef0f4;
+}
+.rank_th {
+    font-size: 30px;
+    background-color: rgb(23,24,26);
+}
+
+.rank_td {
+    font-size: 20px;
+    background-color: rgb(31,32,34);
+    text-align: left;
+    padding-left: 30px;
+}
+
+
+.top_img {
+    width: 100%;
+    height: 150px;
+    margin: 10px;
+    /*border: 2px solid #eef0f4;*/
+
+}
+
+.top_img img {
+    width: 130px;
+    height: 130px;
+}
+
+.top_img_down {
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 10px;
+    /*border: 2px solid #eef0f4;*/
+
+}
+
+.top_img_down img {
+    width: 130px;
+    height: 130px;
+}
+.img {
+    width: 100%;
+    margin: 10px;
+    /*border: 2px solid #eef0f4;*/
+    /*border: 2px solid #eef0f4;*/
+}
+
+
+
+.ranking_content_List {
+    margin-left: 50px;
+    padding: 20px 0;
+    border-radius: 0;
+    border: solid hsla(0,0%,100%,.05);
+    border-width: 1px 0 0;
+
+}
+
+/*个人推荐*/
+.center_top{
+    float: top;
+    margin-top: 100px;
+    /*background-color: white;*/
+}
+
+.duo {
+    vertical-align: bottom;
+}
+
+.ranking_page_header_title span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ranking_page_header_title_text {
+    font-size: 30px;
+    margin-right: 4px;
+    font-family: "SourceHanSerifCN-Bold",PingFang SC,-apple-system,SF UI Text,Lucida Grande,STheiti,Microsoft YaHei,sans-serif;
+    color: #eef0f4;
+}
+
+.List_item {
+    float: top;
+    width: 500px;
+    margin: 20px;
+    height: 180px;
+    border: 2px solid #eef0f4;
+
+}
+
+
+.List_item_text_left {
+    float: left;
+    width: 150px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.List_item_text_center {
+    float: left;
+    width: 200px;
+}
+
+.List_item_text_right {
+    float: left;
+    width: 200px;
+
+
+}
+
+.List_item_link {
+    width: 130px;
+    height: 130px;
+    float: left;
+    margin: 10px;
+    /*z-index: 1;*/
+}
+
+ul{
+    list-style: none;
+    margin-left: 10px;
+}
+
+.no {
+    /*float: left;*/
+    position: relative;
+    width: 35px;
+    height: 32px;
+    /*margin-left: -35px;*/
+    text-align: center;
+    font-size: 50px;
+    list-style: none;
+    color: #eef0f4;
+}
+
+
+.center_bottom{
+    float: top;
+    margin-top: 200px;
+    /*background-color: white;*/
+}
+
+.center_bottom_rank{
+    float: top;
+    margin-top: 20px;
+    /*background-color: white;*/
+}
+
+.player {
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    float: top;
+    background: red;
+}
+
+.player_inner {
+    float: top;
+    margin-top: 10px;
+
+}
+
+
+.footer ul{
+    list-style: none;
+    color: #eef0f4;
+}

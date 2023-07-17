@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.left {
+    float: left;
+    width: 30%;
+    height: 100%;
+    background: url('https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg') no-repeat;
+
+}
+
+.left_player {
+    width: 300px;
+    top: 165px;
+    left: 150px;
+    margin-top: 35px;
+    position:fixed;
+
+}
+
+.img_singer {
+    float: top;
+    width: 250px;
+    margin: auto;
+}
+.img_singer img {
+    width: 300px;
+    height: 350px;
+}
+
+
+.right_player {
+    float: right;
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    background: url('https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg') no-repeat;
+
+}
+
+.songName {
+    text-align: center;
+    font-size: 30px;
+    float: top;
+    margin-top: 10px;
+    color: #eef0f4;
+}
+
+.singer {
+    text-align: center;
+    font-size: 26px;
+    float: top;
+    margin-top: 10px;
+    color: #eef0f4;
+}
+
+.audio_player {
+    float: top;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.in {
+    color: #eef0f4;
+}
+
+.on {
+    background: linear-gradient(-3deg,#eebb89 0%,#d13abd 100%);
+    /*background-clip: text;*/
+    -webkit-background-clip: text;
+    color: violet;
+    font-size: 25px;
+}
+
+/*歌词滚动动画*/
+#LyricMobile {
+    height: 100%;
+    overflow: hidden;
+}
+
+/*div #LyricMobileContent {*/
+/*    height: 100%;*/
+/*    animation: lyric 224s;*/
+/*}*/
+
+/*@keyframes lyric {*/
+/*    from, 0% {*/
+/*        transform: translateY(20%);*/
+/*        !*top: 180px;*!*/
+/*    }*/
+/*    to, 100% {*/
+/*        transform: translateY(-100%);*/
+/*        !*top: 100%;*!*/
+/*    }*/
+/*}*/

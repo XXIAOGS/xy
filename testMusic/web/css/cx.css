@@ -1,0 +1,100 @@
+.bod{
+    background-image: linear-gradient(to left,
+    #9c88ff,#3cadeb);
+}
+.ol {
+    list-style: outside none none;
+}
+
+.a {
+    text-decoration: none;
+}
+
+#toub {
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#toub .div_01 {
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#toub .div_02 ul li {
+    display: inline-block;
+    line-height: 60px;
+}
+
+#toub .div_02 ul li a {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    /*width: 80px;*/
+    line-height: 60px;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+}
+
+#toub .div_02 ul li a:hover {
+    background: #cfcfcf;
+}
+.a5 {
+    width: 1340px;
+    height: 100px;
+    border-collapse: collapse;
+}
+.a5 td{
+    border:1px solid #fff000;
+    text-align: center;
+}
+.ol {
+    list-style: outside none none;
+}
+
+.a {
+    text-decoration: none;
+}
+
+#toub {
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#toub .div_01 {
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#toub .div_02 ul li {
+    display: inline-block;
+    line-height: 60px;
+}
+
+#toub .div_02 ul li a {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    /*width: 80px;*/
+    line-height: 60px;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+}
+
+#toub .div_02 ul li a:hover {
+    background: #cfcfcf;
+}
+.h1{
+    color: #ba54a2;
+}

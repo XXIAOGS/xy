@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.MessageDao">
+
+    <insert id="Add" parameterType="com.po.Message" >
+        insert into message(username,messages) value (#{username},#{messages})
+    </insert>
+    <select id="getAll" resultType="com.po.Message">
+        select *  from  message
+    </select>
+    <delete id="deletes" parameterType="int">
+        delete from message where id=#{id}
+    </delete>
+    <select id="getAl" resultType="com.po.Message">
+        select *  from  message
+    </select>
+    <select id="getMusicById" parameterType="int" resultType="com.po.Music">
+        select * from music where id=#{id}
+    </select>
+
+
+
+</mapper>

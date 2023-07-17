@@ -1,0 +1,212 @@
+
+body,
+h1,
+h2
+.item{
+    background-color:   #e0c3fc ;
+
+}
+.html{
+   background-color:#e0c3fc ;
+}
+h3,
+h4,
+ol,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: #f4f4f4;
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+}
+
+ul,
+.ol {
+    list-style: outside none none;
+}
+
+.a {
+    text-decoration: none;
+}
+
+#toubu {
+    width: 1000px;
+    height: 60px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#toubu .div_01 {
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#toubu .div_02 ul li {
+    display: inline-block;
+    line-height: 60px;
+}
+
+#toubu .div_02 ul li a {
+    display: block;
+    width: 80px;
+    line-height: 60px;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+}
+
+#toubu .div_02 ul li a:hover {
+    background: #cfcfcf;
+}
+
+#toubu .div_03 {
+    line-height: 60px;
+}
+
+#toubu .div_03 a {
+    display: inline-block;
+    font-size: 16px;
+    width: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #000;
+}
+
+#geshou{
+    width:1500px;
+    height:800px;
+    color: #f6f6f6;
+    background-image: linear-gradient(120deg,#e0c3fc 0%, #8ec5fc 100%);
+    border-radius: 0.5rem;
+
+}
+
+
+#geshou_1{
+    width: 1200px;
+    height: 60px;
+    overflow: hidden;
+    margin: 0 auto;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 0.5rem;
+    background: linear-gradient(blue, 10%, pink);
+
+}
+
+#geshou_2{
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    overflow: hidden;
+    margin: 0 auto;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+
+
+
+}
+#geshou_2 div{
+
+    width: 260px;
+    height: 230px;
+    background-color: green;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+#geshou_3{
+    width: 1200px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+}
+#geshou_3 div{
+    width: 260px;
+    height: 300px;
+    background-color: blue;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+#s{
+    width: 100%;
+    height: 100%;
+    background-image: url(../imag/许嵩.jpg);
+    border-radius: 0.5rem;
+}
+#sssssssssssss{
+    width: 100%;
+    height: 100%;
+    background-image: url(../imag/李荣浩.jpg);
+    border-radius: 0.5rem;
+}
+#ssssssssssss{
+    width: 100%;
+    height: 100%;
+    background-image: url(../imag/五月天.jpg);
+    border-radius: 0.5rem;
+}
+#sssssssssss{
+    width: 100%;
+    height: 100%;
+    background-image: url(../imag/伍佰.jpg);
+    border-radius: 0.5rem;
+}
+#sssssssss{
+    width: 100%;
+    height: 100%;
+    background-image: url(../imag/徐良.jpg);
+    border-radius: 0.5rem;
+}
+#ssssssss{
+    width: 150px;
+    height: 200px;
+    background-image: url(../imag/朴树.jpg);
+    border-radius: 0.5rem;
+}
+#sssssss{
+    width: 150px;
+    height: 200px;
+    background-image: url(../imag/陈奕迅.jpg);
+    border-radius: 0.5rem;
+}
+#ssssss{
+    width: 150px;
+    height: 200px;
+    background-image: url(../imag/林俊杰.jpg);
+    border-radius: 0.5rem;
+}
+#sssss{
+    width: 150px;
+    height: 200px;
+    background-image: url(../imag/薛之谦.jpg);
+    border-radius: 0.5rem;
+}
+#ssss{
+    width: 150px;
+    height: 200px;
+    background-image: url(../imag/毛不易.jpg);
+    border-radius: 0.5rem;
+}
+#sss{
+    width: 150px;
+    height: 200px;
+    background-image: url(../imag/邓紫棋.jpg);
+    border-radius: 0.5rem;
+}
+#ss{
+    width: 150px;
+    height: 200px;
+    background-image: url(../imag/周杰伦.jpg);
+    border-radius: 0.5rem;
+}
+

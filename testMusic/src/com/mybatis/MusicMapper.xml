@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.MusicDao">
+
+    <insert id="AddMusic" parameterType="com.po.Music" >
+        insert into music(singer,musicname,musicUrl,lyrisc) value (#{singer},#{musicName},#{musicUrl},#{lyrisc})
+    </insert>
+    <select id="getByName" parameterType="com.po.Music" resultType="com.po.Music">
+        SELECT * FROM `music` where musicname like concat('%',#{musicName},'%')
+    </select>
+    <select id="getAllMusic" resultType="com.po.Music">
+        select *  from  music
+    </select>
+    <select id="getMusicName" resultType="com.po.Music" parameterType="String">
+        SELECT * FROM `music` where musicname like concat('%',#{musicName},'%')
+    </select>
+    <delete id="deletets" parameterType="int">
+        delete from music where songid=#{songid}
+    </delete>
+    <update id="toupdatee" parameterType="com.po.Music">
+        update music set  songid=#{songid},singer=#{singer},musicname=#{musicName},lyrisc=#{lyrisc} where songid=#{songid}
+    </update>
+    <select id="getMusicById" parameterType="int" resultType="com.po.Music">
+        select * from music where songid=#{songid}
+    </select>
+
+
+
+</mapper>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.UserDao">
+    <select id="findOne" parameterType="com.po.User" resultType="com.po.User">
+        select * from user where username=#{username} and password=#{password}
+
+    </select>
+    <insert id="addOne" parameterType="com.po.User">
+        insert into user(username,password,age,address,ic,number,gender) value (#{username},#{password},#{age},#{address},#{ic},#{number},#{gender})
+    </insert>
+    <select id="checkReg" resultType="com.po.User">
+        select * from user where username=#{username}
+    </select>
+ </mapper>
